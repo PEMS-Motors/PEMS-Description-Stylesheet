@@ -1,12 +1,62 @@
-.atl {
-  border: 1px solid red;
+#ATLlayoutcontrol,
+#ATLLeftPanel,
+#ATLRightPanel {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0px;
+  width: auto;
 }
 
-body {
-  background-color: #444;
+.atl h4 {
+  padding: 0px;
+  margin: 0px;
+  margin-left: 5px;
+  width: 100%;
+  border-bottom: 2px solid #ccc;
+}
+
+.atl table {
+  border-collapse: collapse;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.atl td,
+.atl th {
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-bottom: 2px solid #ccc;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.atl tr td:nth-child(1) {
+  font-variant: small-caps;
+}
+
+.atl tr:nth-child(n+1):hover {
+  background-color: #eee;
+}
+
+.atl p {
+  margin-top: 3px;
+  margin-left: 15px;
+  margin-bottom: 3px;
+}
+
+.atl p:hover {
+  background-color: #eee;
+}
+
+.atl.header {
   color: #fff;
+  background-color: #00368c;
+  font-variant: small-caps;
 }
 
-td:hover {
-  background-color: #ccc;
+.atl.subheader {
+  color: #00368c;
+  text-align: left;
+  font-weight: bold;
+  background-color: #f5f5f5;
 }
