@@ -50,6 +50,7 @@
   border-bottom: 2px solid #ccc;
   padding-left: 3px;
   padding-right: 3px;
+  width: auto;
 }
 
 .pemsatl table:hover {
