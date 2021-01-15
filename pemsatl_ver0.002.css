@@ -12,6 +12,7 @@
   background-color: #00368c;
   margin: 0px;
   border-bottom: 2px solid #6060c0;
+  width: 100%;
 }
 
 .pemsatl section {
@@ -112,7 +113,6 @@
   margin: 0px;
   margin-left: 0px;
   margin-bottom: 5px;
-  width: 100%;
   color: #fff;
   background-color: #00368c;
 }
