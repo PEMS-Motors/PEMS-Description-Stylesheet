@@ -3,7 +3,7 @@
   margin: 0px;
   margin-left: 0.5vw;
   margin-bottom: 80px;
-  width: 1%;
+  width: 99vw;
 }
 
 .pemsatl h1 {
@@ -19,13 +19,12 @@
   vertical-align: top;
   padding: 0px;
   padding-right: 6px;
-  width: 1%;
+  width: auto;
   margin-right: 6px;
 }
 
 .pemsatl div {
   display: block;
-  width: 1%;
 }
 
 .pemsatl table {
