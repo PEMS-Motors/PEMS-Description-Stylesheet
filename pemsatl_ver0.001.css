@@ -3,7 +3,7 @@
   margin: 0px;
   margin-left: 0.5vw;
   margin-bottom: 80px;
-  width: 99vw;
+  width: auto;
 }
 
 .pemsatl h1 {
@@ -25,6 +25,7 @@
 
 .pemsatl div {
   display: block;
+  width: auto;
 }
 
 .pemsatl table {
