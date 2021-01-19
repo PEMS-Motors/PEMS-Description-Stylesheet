@@ -82,6 +82,12 @@
         width: 100%;
       }
 
+      .pemsatl.table1d td,
+      .pemsatl.table1d th,
+      .pemsatl.table1d ul {
+        text-align: left;
+      }
+
       .pemsatl ul {
         display: inline-block;
         text-align: left;
@@ -184,6 +190,12 @@
         margin-bottom: 3px;
         margin-right: 3px;
         width: 100%;
+      }
+      
+      .pemsatl.table1d td,
+      .pemsatl.table1d th,
+      .pemsatl.table1d ul {
+        text-align: left;
       }
 
       .pemsatl ul {
