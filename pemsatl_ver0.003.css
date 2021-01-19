@@ -1,199 +1,209 @@
-/* Default to Desktop Viewport */
-@media screen and (min-device-width: 601px) {
-  .pemsatl.master {
-    display: flex;
-    flex-wrap: wrap;
-    vertical-align: top;
-  }
+    /* Default to Desktop Viewport */
+    @media screen and (min-device-width: 601px) {
+      .pemsatl.master {
+        display: flex;
+        flex-wrap: wrap;
+        vertical-align: top;
+      }
 
-  .pemsatl.c1 {
-    white-space: nowrap;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    flex: 1;
-    vertical-align: top;
-  }
+      .pemsatl.c1 {
+        white-space: nowrap;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        flex: 1;
+        vertical-align: top;
+      }
 
-  .pemsatl.c2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex: 5;
-    min-width: 300px;
-    vertical-align: top;
-  }
+      .pemsatl.c2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex: 5;
+        min-width: 300px;
+        vertical-align: top;
+      }
 
-  .pemsatl.c1 table {
-    vertical-align: top;
-    border-collapse: collapse;
-    border-left: 2px solid #ccc;
-    border-right: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 3px;
-    margin-right: 3px;
-    white-space: nowrap;
-    width: 100%;
-  }
+      .pemsatl.c1 table {
+        vertical-align: top;
+        border-collapse: collapse;
+        border-left: 2px solid #ccc;
+        border-right: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 3px;
+        margin-right: 3px;
+        white-space: nowrap;
+        width: 100%;
+      }
 
-  .pemsatl.c1 tr:nth-child(n+1):hover {
-    background-color: #ccf;
-  }
+      .pemsatl.c1 tr:nth-child(n+1):hover {
+        background-color: #ccf;
+      }
 
-  .pemsatl th {
-    text-align: left;
-    background-color: #00368c;
-    color: #fff;
-    font-variant: small-caps;
-    padding-top: 3px;
-    padding-left: 5px;
-    padding-right: 45px;
-    padding-bottom: 5px;
-    width: 100%;
-  }
+      .pemsatl th {
+        text-align: left;
+        background-color: #00368c;
+        color: #fff;
+        font-variant: small-caps;
+        padding-top: 3px;
+        padding-left: 5px;
+        padding-right: 45px;
+        padding-bottom: 5px;
+        width: 100%;
+      }
 
-  .pemsatl td {
-    border: 1px solid #ccf;
-    padding: 3px;
-  }
+      .pemsatl td {
+        text-align: left;
+        border: 1px solid #ccf;
+        padding: 3px;
+      }
 
-  .pemsatl.c1 tr td:last-child {
-    width: 100%;
-  }
+      .pemsatl.c1 tr td:last-child {
+        width: 100%;
+      }
 
-  .pemsatl.table1d {
-    vertical-align: top;
-    border-collapse: collapse;
-    border-left: 2px solid #ccc;
-    border-right: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 3px;
-    margin-right: 3px;
-    width: 100%;
-  }
+      .pemsatl.table1d {
+        vertical-align: top;
+        border-collapse: collapse;
+        border-left: 2px solid #ccc;
+        border-right: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 3px;
+        margin-right: 3px;
+        width: 100%;
+      }
 
-  .pemsatl ul {
-    display: inline-block;
-  }
+      .pemsatl ul {
+        display: inline-block;
+        text-align: left;
+      }
 
-  .pemsatl th {
-    font-size: 20;
-  }
+      .pemsatl th {
+        font-size: 20;
+        text-align: left;
+      }
 
-  .pemsatl td {
-    font-size: 16;
-  }
+      .pemsatl td {
+        font-size: 16;
+        text-align: left;
+      }
 
-  .pemsatl li,
-  .pemsatl p {
-    font-size: 16;
-  }
+      .pemsatl li,
+      .pemsatl p {
+        font-size: 16;
+        text-align: left;
+      }
 
-  .pemsatl.row table {
-    display: inline-block;
-    border-collapse: collapse;
-    width: auto;
-  }
-}
+      .pemsatl.row table {
+        display: inline-block;
+        border-collapse: collapse;
+        width: auto;
+      }
+    }
 
 
-/* Smaller Media */
-@media screen and (max-device-width: 600px) {
+    /* Smaller Media */
+    @media screen and (max-device-width: 600px) {
 
-  .pemsatl.master {
-    display: block;
-    vertical-align: top;
-  }
+      .pemsatl.master {
+        display: block;
+        vertical-align: top;
+      }
 
-  .pemsatl.c1 {
-    white-space: normal;
-    display: block;
-    vertical-align: top;
-  }
+      .pemsatl.c1 {
+        white-space: normal;
+        display: block;
+        vertical-align: top;
+      }
 
-  .pemsatl.c2 {
-    vertical-align: top;
-    display: block;
-  }
+      .pemsatl.c2 {
+        vertical-align: top;
+        display: block;
+      }
 
-  .pemsatl.c3 {
-    vertical-align: top;
-    display: block;
-  }
+      .pemsatl.c3 {
+        vertical-align: top;
+        display: block;
+      }
 
-  .pemsatl table {
-    vertical-align: top;
-    border-collapse: collapse;
-    border-top: 2px solid #ccc;
-    border-left: 2px solid #ccc;
-    border-right: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 3px;
-    margin-right: 3px;
-    white-space: normal;
-    width: 100%;
-  }
+      .pemsatl table {
+        vertical-align: top;
+        border-collapse: collapse;
+        border-top: 2px solid #ccc;
+        border-left: 2px solid #ccc;
+        border-right: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 3px;
+        margin-right: 3px;
+        white-space: normal;
+        width: 100%;
+      }
 
-  .pemsatl.c1 tr:nth-child(n+1):hover {
-    background-color: #ccf;
-  }
+      .pemsatl.c1 tr:nth-child(n+1):hover {
+        background-color: #ccf;
+      }
 
-  .pemsatl th {
-    text-align: left;
-    background-color: #00368c;
-    color: #fff;
-    font-variant: small-caps;
-    padding-top: 3px;
-    padding-left: 5px;
-    padding-right: 45px;
-    padding-bottom: 5px;
-    width: 100%;
-  }
+      .pemsatl th {
+        text-align: left;
+        background-color: #00368c;
+        color: #fff;
+        font-variant: small-caps;
+        padding-top: 3px;
+        padding-left: 5px;
+        padding-right: 45px;
+        padding-bottom: 5px;
+        width: 100%;
+      }
 
-  .pemsatl td {
-    border: 1px solid #ccf;
-    padding: 3px;
-    margin: 0px;
-  }
+      .pemsatl td {
+        border: 1px solid #ccf;
+        padding: 3px;
+        margin: 0px;
+        text-align: left;
+      }
 
-  .pemsatl.c1 tr td:last-child {
-    width: 100%;
-  }
+      .pemsatl.c1 tr td:last-child {
+        width: 100%;
+      }
 
-  .pemsatl.table1d {
-    vertical-align: top;
-    border-collapse: collapse;
-    border-left: 2px solid #ccc;
-    border-right: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 3px;
-    margin-right: 3px;
-    width: 100%;
-  }
+      .pemsatl.table1d {
+        vertical-align: top;
+        border-collapse: collapse;
+        border-left: 2px solid #ccc;
+        border-right: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 3px;
+        margin-right: 3px;
+        width: 100%;
+      }
 
-  .pemsatl ul {
-    display: block;
-  }
+      .pemsatl ul {
+        display: block;
+        text-align: left;
+      }
 
-  .pemsatl th {
-    font-size: 34;
-  }
+      .pemsatl th {
+        font-size: 34;
+        text-align: left;
+      }
 
-  .pemsatl td {
-    font-size: 30;
-  }
+      .pemsatl td {
+        font-size: 30;
+        text-align: left;
+      }
 
-  .pemsatl li,
-  .pemsatl p {
-    font-size: 16;
-  }
+      .pemsatl li,
+      .pemsatl p {
+        font-size: 16;
+        text-align: left;
+      }
 
-  .pemsatl.row table {
-    display: inline-block;
-    border-collapse: collapse;
-    width: auto;
-  }
-}
+      .pemsatl.row table {
+        display: inline-block;
+        border-collapse: collapse;
+        width: auto;
+      }
+    }
