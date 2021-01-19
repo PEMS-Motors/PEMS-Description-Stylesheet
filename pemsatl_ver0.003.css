@@ -1,4 +1,4 @@
-/* Default to Desktop Viewport */
+    /* Default to Desktop Viewport */
     @media screen and (min-device-width: 601px) {
       .pemsatl.master {
         display: flex;
@@ -8,20 +8,26 @@
 
       .pemsatl.c1 {
         white-space: nowrap;
+        display: block;
+        /*
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: column;
+        */
         flex: 1;
         vertical-align: top;
       }
 
       .pemsatl.c2 {
+        display: block;
+        /*
         display: flex;
         flex-wrap: wrap;
         justify-content: start;
         align-items: start;
+        */
         flex: 5;
         min-width: 300px;
         vertical-align: top;
