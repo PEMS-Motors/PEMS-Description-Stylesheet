@@ -1,3 +1,7 @@
+* {
+  vertical-align: top;
+  text-align: left;
+}
 @media screen and (min-device-width: 601px) {
   .pemsatl.master {
     display: flex;
