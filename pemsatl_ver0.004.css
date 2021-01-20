@@ -54,7 +54,7 @@
     width: 100%;
   }
 
-  .pemsatl.c1 tr:nth-child(n+1):hover {
+  .pemsatl tr:nth-child(n+1):hover {
     background-color: #ccf;
   }
 
@@ -178,7 +178,7 @@
     width: 100%;
   }
 
-  .pemsatl.c1 tr:nth-child(n+1):hover {
+  .pemsatl tr:nth-child(n+1):hover {
     background-color: #ccf;
   }
 
