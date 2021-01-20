@@ -1,12 +1,15 @@
-* {
-  vertical-align: top;
-  text-align: left;
-}
+
 @media screen and (min-device-width: 601px) {
+  .pemsatl * {
+    vertical-align: top;
+    text-align: left;
+  }
+  
   .pemsatl.master {
     display: flex;
     flex-wrap: wrap;
     vertical-align: top;
+    text-align: left;
   }
 
   .pemsatl.c1 {
@@ -21,6 +24,7 @@
     */
     flex: 1;
     vertical-align: top;
+    text-align: left;
   }
 
   .pemsatl.c2 {
@@ -34,10 +38,12 @@
     flex: 5;
     min-width: 300px;
     vertical-align: top;
+    text-align: left;
   }
 
   .pemsatl.c1 table {
     vertical-align: top;
+    text-align: left;
     border-collapse: collapse;
     border-left: 2px solid #ccc;
     border-right: 1px solid #ccc;
@@ -53,6 +59,7 @@
   }
 
   .pemsatl th {
+    vertical-align: top;
     text-align: left;
     background-color: #00368c;
     color: #fff;
@@ -65,6 +72,7 @@
   }
 
   .pemsatl td {
+    vertical-align: top;
     text-align: left;
     border: 1px solid #ccf;
     padding: 3px;
@@ -76,6 +84,7 @@
 
   .pemsatl.table1d {
     vertical-align: top;
+    text-align: left;
     border-collapse: collapse;
     border-left: 2px solid #ccc;
     border-right: 1px solid #ccc;
@@ -88,27 +97,32 @@
   .pemsatl.table1d td,
   .pemsatl.table1d th,
   .pemsatl.table1d ul {
+    vertical-align: top;
     text-align: left;
   }
 
   .pemsatl ul {
     display: inline-block;
+    vertical-align: top;
     text-align: left;
   }
 
   .pemsatl th {
     font-size: 20;
+    vertical-align: top;
     text-align: left;
   }
 
   .pemsatl td {
     font-size: 16;
+    vertical-align: top;
     text-align: left;
   }
 
   .pemsatl li,
   .pemsatl p {
     font-size: 16;
+    vertical-align: top;
     text-align: left;
   }
 
@@ -122,16 +136,21 @@
 
 /* Smaller Media */
 @media screen and (max-device-width: 600px) {
-
+  .pemsatl * {
+    vertical-align: top;
+    text-align: left;
+  }
   .pemsatl.master {
     display: block;
     vertical-align: top;
+    text-align: left;
   }
 
   .pemsatl.c1 {
     white-space: normal;
     display: block;
     vertical-align: top;
+    text-align: left;
   }
 
   .pemsatl.c2 {
@@ -141,11 +160,13 @@
 
   .pemsatl.c3 {
     vertical-align: top;
+    text-align: left;
     display: block;
   }
 
   .pemsatl table {
     vertical-align: top;
+    text-align: left;
     border-collapse: collapse;
     border-top: 2px solid #ccc;
     border-left: 2px solid #ccc;
@@ -162,6 +183,7 @@
   }
 
   .pemsatl th {
+    vertical-align: top;
     text-align: left;
     background-color: #00368c;
     color: #fff;
@@ -177,6 +199,7 @@
     border: 1px solid #ccf;
     padding: 3px;
     margin: 0px;
+    vertical-align: top;
     text-align: left;
   }
 
@@ -186,6 +209,7 @@
 
   .pemsatl.table1d {
     vertical-align: top;
+    text-align: left;
     border-collapse: collapse;
     border-left: 2px solid #ccc;
     border-right: 1px solid #ccc;
@@ -198,27 +222,32 @@
   .pemsatl.table1d td,
   .pemsatl.table1d th,
   .pemsatl.table1d ul {
+    vertical-align: top;
     text-align: left;
   }
 
   .pemsatl ul {
     display: block;
+    vertical-align: top;
     text-align: left;
   }
 
   .pemsatl th {
     font-size: 34;
+    vertical-align: top;
     text-align: left;
   }
 
   .pemsatl td {
     font-size: 30;
+    vertical-align: top;
     text-align: left;
   }
 
   .pemsatl li,
   .pemsatl p {
     font-size: 16;
+    vertical-align: top;
     text-align: left;
   }
 
