@@ -57,6 +57,10 @@
   .pemsatl tr:nth-child(n+1):hover {
     background-color: #ccf;
   }
+  
+  .pemsatl tr td:nth-child(1) {
+    font-variant: small-caps;
+  }
 
   .pemsatl th {
     vertical-align: top;
@@ -274,5 +278,8 @@
     display: inline-block;
     border-collapse: collapse;
     width: auto;
+  }
+  .pemsatl tr td:nth-child(1) {
+    font-variant: small-caps;
   }
 }
