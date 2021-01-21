@@ -119,13 +119,21 @@
     text-align: left;
   }
 
-  .pemsatl li,
+  .pemsatl li {
+    font-size: 16;
+    vertical-align: top;
+    text-align: left;    
+  }
+  
+  .pemsatl ul,
+  .pemsatl ol, 
   .pemsatl p {
     font-size: 16;
     vertical-align: top;
-    text-align: left;
+    text-align: left;    
+    margin: 3px;
   }
-
+  
   .pemsatl.row table {
     display: inline-block;
     border-collapse: collapse;
@@ -244,13 +252,21 @@
     text-align: left;
   }
 
-  .pemsatl li,
+  .pemsatl li {
+    font-size: 16;
+    vertical-align: top;
+    text-align: left;    
+  }
+  
+  .pemsatl ul,
+  .pemsatl ol, 
   .pemsatl p {
     font-size: 16;
     vertical-align: top;
-    text-align: left;
+    text-align: left;    
+    margin: 3px;
   }
-
+  
   .pemsatl.row table {
     display: inline-block;
     border-collapse: collapse;
