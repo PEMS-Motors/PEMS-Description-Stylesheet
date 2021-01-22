@@ -158,6 +158,11 @@
     border-collapse: collapse;
     width: auto;
   }
+  
+  .pemsatl.row th  {
+    font-variant: small-caps;
+  }
+  
   .pemsatl.row table:first-of-type {    
     /*
     margin-left: 60px;
@@ -300,6 +305,11 @@
     border-collapse: collapse;
     width: auto;
   }
+  
+  .pemsatl.row th  {
+    font-variant: small-caps;
+  }
+  
   .pemsatl tr td:nth-child(1) {
     font-variant: small-caps;
   }
