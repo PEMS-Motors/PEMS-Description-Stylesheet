@@ -140,6 +140,11 @@
     margin-left: 25px;
   }
   
+  .pemsatl.row {
+    position: relative;
+    margin: 0;
+  }
+  
   .pemsatl.row table {
     display: inline-block;
     border-collapse: collapse;
