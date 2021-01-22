@@ -110,6 +110,7 @@
     vertical-align: top;
     text-align: left;
     margin-left: 15px;
+    position: relative;
   }
 
   .pemsatl th {
@@ -257,6 +258,7 @@
     display: block;
     vertical-align: top;
     text-align: left;
+    position: relative;
   }
 
   .pemsatl th {
