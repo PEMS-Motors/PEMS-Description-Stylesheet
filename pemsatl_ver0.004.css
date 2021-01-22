@@ -142,7 +142,8 @@
     text-align: left;    
     position: relative;    
     margin: 3px;    
-    margin-left: 25px;    
+    margin-left: 25px;
+    font-variant: normal;
   }
   
   .pemsatl.row {
@@ -271,13 +272,14 @@
   .pemsatl td {
     font-size: 30;
     vertical-align: top;
-    text-align: left;
+    text-align: left;    
   }
 
   .pemsatl li {
     font-size: 16;
     vertical-align: top;
     text-align: left;    
+    font-variant: normal;
   }
   
   .pemsatl ul,
@@ -287,6 +289,7 @@
     vertical-align: top;
     text-align: left;    
     margin: 3px;
+    font-variant: normal;
   }
   
   .pemsatl.row table {
