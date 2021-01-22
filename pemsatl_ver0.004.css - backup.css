@@ -1,0 +1,288 @@
+@media screen and (min-device-width: 601px) {
+  .pemsatl * {
+    vertical-align: top;
+    text-align: left;
+  }
+  
+  .pemsatl.master {
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: top;
+    text-align: left;
+  }
+
+  .pemsatl.c1 {
+    white-space: nowrap;
+    display: block;
+    /*
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    */
+    flex: 1;
+    vertical-align: top;
+    text-align: left;
+  }
+
+  .pemsatl.c2 {
+    display: block;
+    /*
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    */
+    flex: 5;
+    min-width: 300px;
+    vertical-align: top;
+    text-align: left;
+  }
+
+  .pemsatl.c1 table {
+    vertical-align: top;
+    text-align: left;
+    border-collapse: collapse;
+    border-left: 2px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 3px;
+    margin-right: 3px;
+    white-space: nowrap;
+    width: 100%;
+  }
+
+  .pemsatl tr:nth-child(n+1):hover {
+    background-color: #ccf;
+  }
+  
+  .pemsatl tr td:nth-child(1) {
+    font-variant: small-caps;
+  }
+
+  .pemsatl th {
+    vertical-align: top;
+    text-align: left;
+    background-color: #00368c;
+    color: #fff;
+    font-variant: small-caps;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 45px;
+    padding-bottom: 5px;
+    width: 100%;
+  }
+
+  .pemsatl td {
+    vertical-align: top;
+    text-align: left;
+    border: 1px solid #ccf;
+    padding: 3px;
+  }
+
+  .pemsatl.c1 tr td:last-child {
+    width: 100%;
+  }
+
+  .pemsatl.table1d {
+    vertical-align: top;
+    text-align: left;
+    border-collapse: collapse;
+    border-left: 2px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 3px;
+    margin-right: 3px;
+    width: 100%;
+  }
+
+  .pemsatl.table1d td,
+  .pemsatl.table1d th,
+  .pemsatl.table1d ul {
+    vertical-align: top;
+    text-align: left;
+  }
+
+  .pemsatl ul {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin-left: 15px;
+  }
+
+  .pemsatl th {
+    font-size: 20;
+    vertical-align: top;
+    text-align: left;
+  }
+
+  .pemsatl td {
+    font-size: 16;
+    vertical-align: top;
+    text-align: left;
+  }
+
+  .pemsatl li {
+    font-size: 16;
+    vertical-align: top;
+    text-align: left;    
+  }
+  
+  .pemsatl ul,
+  .pemsatl ol, 
+  .pemsatl p {
+    font-size: 16;
+    vertical-align: top;
+    text-align: left;    
+    margin: 3px;
+    margin-left: 25px;
+  }
+  
+  .pemsatl.row table {
+    display: inline-block;
+    border-collapse: collapse;
+    width: auto;
+  }
+  .pemsatl.row table:first-of-type {    
+    /*
+    margin-left: 60px;
+    */
+  }
+}
+
+
+/* Smaller Media */
+@media screen and (max-device-width: 600px) {
+  .pemsatl * {
+    vertical-align: top;
+    text-align: left;
+  }
+  .pemsatl.master {
+    display: block;
+    vertical-align: top;
+    text-align: left;
+  }
+
+  .pemsatl.c1 {
+    white-space: normal;
+    display: block;
+    vertical-align: top;
+    text-align: left;
+  }
+
+  .pemsatl.c2 {
+    vertical-align: top;
+    display: block;
+  }
+
+  .pemsatl.c3 {
+    vertical-align: top;
+    text-align: left;
+    display: block;
+  }
+
+  .pemsatl table {
+    vertical-align: top;
+    text-align: left;
+    border-collapse: collapse;
+    border-top: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 3px;
+    margin-right: 3px;
+    white-space: normal;
+    width: 100%;
+  }
+
+  .pemsatl tr:nth-child(n+1):hover {
+    background-color: #ccf;
+  }
+
+  .pemsatl th {
+    vertical-align: top;
+    text-align: left;
+    background-color: #00368c;
+    color: #fff;
+    font-variant: small-caps;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 45px;
+    padding-bottom: 5px;
+    width: 100%;
+  }
+
+  .pemsatl td {
+    border: 1px solid #ccf;
+    padding: 3px;
+    margin: 0px;
+    vertical-align: top;
+    text-align: left;
+  }
+
+  .pemsatl.c1 tr td:last-child {
+    width: 100%;
+  }
+
+  .pemsatl.table1d {
+    vertical-align: top;
+    text-align: left;
+    border-collapse: collapse;
+    border-left: 2px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 3px;
+    margin-right: 3px;
+    width: 100%;
+  }
+
+  .pemsatl.table1d td,
+  .pemsatl.table1d th,
+  .pemsatl.table1d ul {
+    vertical-align: top;
+    text-align: left;
+  }
+
+  .pemsatl ul {
+    display: block;
+    vertical-align: top;
+    text-align: left;
+  }
+
+  .pemsatl th {
+    font-size: 34;
+    vertical-align: top;
+    text-align: left;
+  }
+
+  .pemsatl td {
+    font-size: 30;
+    vertical-align: top;
+    text-align: left;
+  }
+
+  .pemsatl li {
+    font-size: 16;
+    vertical-align: top;
+    text-align: left;    
+  }
+  
+  .pemsatl ul,
+  .pemsatl ol, 
+  .pemsatl p {
+    font-size: 16;
+    vertical-align: top;
+    text-align: left;    
+    margin: 3px;
+  }
+  
+  .pemsatl.row table {
+    display: block;
+    border-collapse: collapse;
+    width: auto;
+  }
+  .pemsatl tr td:nth-child(1) {
+    font-variant: small-caps;
+  }
+}
