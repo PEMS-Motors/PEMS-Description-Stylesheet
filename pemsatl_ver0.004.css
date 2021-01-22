@@ -279,7 +279,7 @@
   .pemsatl.row table {
     display: block;
     border-collapse: collapse;
-    width: 100%;
+    width: auto;
   }
   .pemsatl tr td:nth-child(1) {
     font-variant: small-caps;
