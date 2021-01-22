@@ -73,6 +73,7 @@
     padding-right: 45px;
     padding-bottom: 5px;
     width: 100%;
+    font-variant: small-caps;
   }
 
   .pemsatl td {
@@ -119,6 +120,7 @@
     font-size: 20;
     vertical-align: top;
     text-align: left;
+    font-variant: small-caps;
   }
 
   .pemsatl td {
@@ -222,7 +224,7 @@
     padding-left: 5px;
     padding-right: 45px;
     padding-bottom: 5px;
-    width: 100%;
+    width: 100%;    
   }
 
   .pemsatl td {
@@ -267,6 +269,7 @@
     font-size: 34;
     vertical-align: top;
     text-align: left;
+    font-variant: small-caps;
   }
 
   .pemsatl td {
