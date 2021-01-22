@@ -127,7 +127,7 @@
   .pemsatl li {
     font-size: 16;
     vertical-align: top;
-    text-align: left;    
+    text-align: left;        
   }
   
   .pemsatl ul,
@@ -136,8 +136,11 @@
     font-size: 16;
     vertical-align: top;
     text-align: left;    
+    position: relative;    
     margin: 3px;
+    /*
     margin-left: 25px;
+    */
   }
   
   .pemsatl.row {
