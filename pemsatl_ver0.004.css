@@ -144,6 +144,8 @@
     display: inline-block;
     border-collapse: collapse;
     width: auto;
+  }
+  .pemsatl.row table:first-of-type {    
     margin-left: 60px;
   }
 }
