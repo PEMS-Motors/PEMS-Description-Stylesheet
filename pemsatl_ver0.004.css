@@ -148,6 +148,10 @@
     font-variant: normal;
   }
   
+  .pemsatl b {
+    font-variant: small-caps;
+  }
+  
   .pemsatl.row {
     position: relative;
     margin: 0;
@@ -298,6 +302,10 @@
     text-align: left;    
     margin: 3px;
     font-variant: normal;
+  }
+  
+  .pemsatl b {
+    font-variant: small-caps;
   }
   
   .pemsatl.row table {
