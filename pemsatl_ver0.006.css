@@ -35,7 +35,8 @@
 
 .pems_website_description > div > table {
   display: block;
-  width: 314px;
+  width: 100%;
+  min-width: 314px;
   border-collapse: collapse;
   margin-bottom: 15px;
 }
@@ -64,6 +65,10 @@
   min-width: 120px;
   white-space: nowrap;
   font-variant: small-caps;
+}
+
+.pems_website_description > div > table tr td:last-child {
+  white-space: normal;
 }
 
 .pems_website_description > div > table td:last-child {
