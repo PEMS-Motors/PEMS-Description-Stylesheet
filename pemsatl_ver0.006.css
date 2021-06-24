@@ -130,8 +130,10 @@
   min-width: 314px;
 }
 
-
-
+.pems_website_description .multi-hp-table td,
+.pems_website_description .multi-hp-table th {
+  border: 1px solid black; 
+}
 
 
 
