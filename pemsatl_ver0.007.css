@@ -7,7 +7,7 @@
 	display: block;
 	height: 60px;
 	padding: 3px;
-	overflow-y: scroll;
+	text-overflow: ellipsis;;
 }
 
 .pems-atl-description .panes {
