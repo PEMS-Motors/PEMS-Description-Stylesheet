@@ -7,7 +7,8 @@
 	display: block;
 	height: 60px;
 	padding: 3px;
-	text-overflow: ellipsis;;
+	text-overflow: ellipsis;
+	overflow: hidden;
 }
 
 .pems-atl-description .panes {
@@ -172,6 +173,8 @@
 	.pems-atl-description .rightpane {
 		display: block;
 		width: 95vw;
+		margin-left: 0;
+		padding-left: 0;
 	}
 
 	.pems-atl-description input[type='checkbox'] + label {
