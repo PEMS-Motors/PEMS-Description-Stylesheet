@@ -174,7 +174,6 @@
 
 	.pems-atl-description input[type='checkbox'] + label {
 		display: block;
-		width: 95vw;
 		padding: 18px 3px 18px 3px;
 	}
 }
