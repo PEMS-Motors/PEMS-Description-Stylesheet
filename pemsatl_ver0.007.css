@@ -5,7 +5,7 @@
 
 .pems-atl-description .summary {
 	display: block;
-	height: 60px;
+	height: 55px;
 	padding: 3px;
 	text-overflow: ellipsis;
 	overflow: hidden;
@@ -19,6 +19,7 @@
 	display: inline-block;
 	vertical-align: top;
 	width: 25vw;
+	overflow: hidden;
 }
 
 .pems-atl-description .rightpane {
@@ -70,6 +71,8 @@
 	border-radius: 0 0 12px 0;
 	border-style: solid;
 	border-color: black;
+	border-left: 4px inset black;
+	overflow: auto;
 }
 
 .pems-atl-description tr:hover,
@@ -128,6 +131,7 @@
 .pems-atl-description li {
 	margin: 0;
 	padding: 3px 0 3px 0;
+	margin-right: 25px;
 }
 
 .pems-atl-description p {
@@ -138,6 +142,10 @@
 	padding: 0;
 	margin: 0;
 	padding: 9px 9px 9px 25px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
 }
 
 .pems-atl-description p {
@@ -146,11 +154,13 @@
 	padding: 9px 9px 9px 15px;
 }
 
-.pems-atl-description li > span {
+.pems-atl-description li span,
+.pems-atl-description td:first-child {
 	font-weight: bold;
+	min-width: 8vw;
 }
 
-@media (max-width: 799px) {
+@media (max-width: 1023px) {
 
 	.pems-atl-description {
 		display: block;
