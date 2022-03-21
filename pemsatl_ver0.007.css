@@ -1,0 +1,180 @@
+.pems-atl-description {
+	display: block;
+	vertical-align: top;
+}
+
+.pems-atl-description .summary {
+	display: block;
+	height: 30px;
+	padding: 3px;
+}
+
+.pems-atl-description .panes {
+	display: block;
+}
+
+.pems-atl-description .leftpane {
+	display: inline-block;
+	vertical-align: top;
+	width: 25vw;
+}
+
+.pems-atl-description .rightpane {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	width: 70vw;
+}
+
+.pems-atl-description input[type='checkbox'] {
+	display: none;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.pems-atl-description input[type='checkbox'] + label {
+	display: block;
+	margin: 0;
+	margin-right: 0px;
+	padding: 7px;
+	border-radius: 0px 12px 12px 0px; /* [ top left, top right, bottom right, bottom left ] */
+	background: linear-gradient(#00368c, #00238c);
+	background-repeat: repeat-x;
+	color: white;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.pems-atl-description input[type='checkbox']:checked + label {
+	display: block;
+	border-radius: 0px 12px 0px 0px; /* [ top left, top right, bottom right, bottom left ] */
+	background-color: #0375b7;
+	font-weight: normal;
+}
+
+.pems-atl-description input[type='checkbox'] + label:hover {
+	background: linear-gradient(#0074cc, #00238c);
+}
+
+.pems-atl-description input[type='checkbox'] + label + section {
+	display: none;
+}
+
+.pems-atl-description input[type='checkbox']:checked + label + section {
+	display: block;
+	margin: 0;
+	border-width: 1px 1px 1px 1px;
+	border-radius: 0 0 12px 0;
+	border-style: solid;
+	border-color: black;
+}
+
+.pems-atl-description tr:hover,
+.pems-atl-description p:hover,
+.pems-atl-description li:hover {
+	background-color: #0375b7;
+}
+
+.pems-atl-description table {
+	width: auto;
+	border-collapse: collapse;
+}
+
+.pems-atl-description table td {
+	padding: 3px;
+	padding-right: 5px;
+}
+
+.pems-atl-description table tr {
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	border-color: black;
+}
+
+.pems-atl-description table tr:first-child {
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	border-color: black;
+}
+
+.pems-atl-description table tr:last-child {
+	border-width: 0 0 0 0;
+	border-style: solid;
+	border-color: black;
+}
+
+.pems-atl-description tr > td:first-child {
+	width: 1%;
+	overflow: none;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	border-right: 4px outset black;
+}
+
+.pems-atl-description tr > td:last-child {
+	width: auto;
+}
+
+.pems-atl-description table td:last-child {
+	padding: 3px;
+	padding-right: 5px;
+	border-radius: 0 0 12px 0;
+}
+
+.pems-atl-description p,
+.pems-atl-description li {
+	margin: 0;
+	padding: 0;
+}
+
+.pems-atl-description p {
+	padding: 3px;
+}
+
+.pems-atl-description ul {
+	padding: 0;
+	margin: 0;
+	padding-left: 25px;
+}
+
+.pems-atl-description p {
+	padding: 0;
+	margin: 0;
+	padding-left: 15px;
+}
+
+.pems-atl-description li > span {
+	font-weight: bold;
+}
+
+@media (max-width: 799px) {
+
+	.pems-atl-description {
+		display: block;
+	}
+
+	.pems-atl-description .summary {
+		display: block;
+	}
+
+	.pems-atl-description .panes {
+		display: block;
+	}
+
+	.pems-atl-description .leftpane {
+		display: block;
+		vertical-align: top;
+		width: 95vw;
+	}
+
+	.pems-atl-description .rightpane {
+		display: block;
+		width: 95vw;
+	}
+
+	.pems-atl-description input[type='checkbox'] + label {
+		display: block;
+		width: 95vw;
+		padding: 18px 3px 18px 3px;
+	}
+}
