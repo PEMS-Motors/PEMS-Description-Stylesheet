@@ -24,6 +24,7 @@
 	vertical-align: top;
 	position: relative;
 	width: 70vw;
+	margin-left: 15px;
 }
 
 .pems-atl-description input[type='checkbox'] {
