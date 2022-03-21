@@ -5,8 +5,9 @@
 
 .pems-atl-description .summary {
 	display: block;
-	height: 30px;
+	height: 60px;
 	padding: 3px;
+	overflow-y: scroll;
 }
 
 .pems-atl-description .panes {
