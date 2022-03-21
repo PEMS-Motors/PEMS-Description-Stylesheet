@@ -125,7 +125,7 @@
 .pems-atl-description p,
 .pems-atl-description li {
 	margin: 0;
-	padding: 0;
+	padding: 3px 0 3px 0;
 }
 
 .pems-atl-description p {
@@ -135,13 +135,13 @@
 .pems-atl-description ul {
 	padding: 0;
 	margin: 0;
-	padding-left: 25px;
+	padding: 9px 9px 9px 25px;
 }
 
 .pems-atl-description p {
 	padding: 0;
 	margin: 0;
-	padding-left: 15px;
+	padding: 9px 9px 9px 15px;
 }
 
 .pems-atl-description li > span {
