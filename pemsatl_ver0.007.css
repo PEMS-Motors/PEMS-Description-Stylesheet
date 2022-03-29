@@ -7,17 +7,7 @@
 	display: block;
 	height: 25px;
 	margin: 0;
-	padding-top: 3px;
-	padding-left: 3px;
-	padding-right: 0px;
-	padding-bottom: 3px;
 	text-overflow: ellipsis;
-	overflow: hidden;
-	border-top: 4px inset black;
-	border-left: 4px inset black;
-	border-right: 1px solid black;
-	border-bottom: 4px inset black;
-	border-radius: 0px 12px 12px 0px;
 }
 
 .pems-atl-description .panes {
