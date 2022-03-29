@@ -6,28 +6,38 @@
 .pems-atl-description .summary {
 	display: block;
 	height: 55px;
-	padding: 3px;
+	margin: 0;
+	padding-top: 3px;
+	padding-left: 3px;
+	padding-right: 0px;
+	padding-bottom: 3px;
 	text-overflow: ellipsis;
 	overflow: hidden;
+	border-top: 4px inset black;
+	border-left: 4px inset black;
+	border-right: 1px solid black;
+	border-bottom: 4px inset black;
+	border-radius: 0px 12px 12px 0px;
 }
 
 .pems-atl-description .panes {
-	display: block;
+	display: inline-block;
+	vertical-align: top;
 }
 
 .pems-atl-description .leftpane {
 	display: inline-block;
 	vertical-align: top;
-	width: 25vw;
 	overflow: hidden;
+	width: 35vw;
+	margin-right: 15px;
 }
 
 .pems-atl-description .rightpane {
 	display: inline-block;
 	vertical-align: top;
 	position: relative;
-	width: 70vw;
-	margin-left: 15px;
+	width: 60vw;
 }
 
 .pems-atl-description input[type='checkbox'] {
@@ -46,6 +56,7 @@
 	color: white;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: bold;
+	font-variant: small-caps;
 	cursor: pointer;
 }
 
@@ -111,7 +122,7 @@
 
 .pems-atl-description tr > td:first-child {
 	width: 1%;
-	overflow: none;
+	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	border-right: 4px outset black;
@@ -119,6 +130,7 @@
 
 .pems-atl-description tr > td:last-child {
 	width: auto;
+	text-overflow: ellipsis;
 }
 
 .pems-atl-description table td:last-child {
@@ -151,7 +163,7 @@
 .pems-atl-description p {
 	padding: 0;
 	margin: 0;
-	padding: 9px 9px 9px 15px;
+	padding: 3px 3px 3px 3px;
 }
 
 .pems-atl-description li span,
@@ -160,7 +172,22 @@
 	min-width: 8vw;
 }
 
-@media (max-width: 1023px) {
+.pems-atl-description .crossreference_table {
+	width: 100%;
+}
+.pems-atl-description .crossreference_table td:first-child {
+	width: 100%;
+	border: 1px solid black;
+}
+
+
+
+/***********************
+*
+* MOBILE SETTINGS
+*
+************************/
+@media (max-width: 799px) {
 
 	.pems-atl-description {
 		display: block;
@@ -190,5 +217,9 @@
 	.pems-atl-description input[type='checkbox'] + label {
 		display: block;
 		padding: 18px 3px 18px 3px;
+	}
+
+	.pems-atl-description td {
+		overflow: visible;
 	}
 }
