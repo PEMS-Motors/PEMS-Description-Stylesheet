@@ -162,15 +162,9 @@
 	min-width: 8vw;
 }
 
-.pems-atl-description .crossreference_table {
+.pems-atl-description .crossreference_table td {
 	width: 100%;
 }
-.pems-atl-description .crossreference_table td:first-child {
-	width: 100%;
-	border: 1px solid black;
-}
-
-
 
 /***********************
 *
