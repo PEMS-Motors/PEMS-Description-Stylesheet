@@ -20,7 +20,7 @@
 	display: inline-block;
 	vertical-align: top;
 	overflow: hidden;
-	width: 28vw;
+	width: 22vw;
 	margin-right: 15px;
 }
 
@@ -28,7 +28,7 @@
 	display: inline-block;
 	vertical-align: top;
 	position: relative;
-	width: 60vw;
+	width: 50vw;
 }
 
 .pems-atl-description input[type='checkbox'] {
