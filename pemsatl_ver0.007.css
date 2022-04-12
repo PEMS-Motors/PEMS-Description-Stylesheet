@@ -8,6 +8,7 @@
 	margin: 0;
 	min-height: 25px;
 	text-overflow: ellipsis;
+	padding-bottom: 15px;
 }
 
 .pems-atl-description .panes {
