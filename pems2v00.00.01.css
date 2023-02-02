@@ -1,0 +1,122 @@
+/* general description formatting */
+#pems2--web {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#pems2--content {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	margin-right: 20px;
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	grid-template-areas: "pems2--left pems2--right";
+	grid-column-start: left;
+	grid-column-end: right;
+	align-items: start;
+}
+
+/* summary */
+#pems2--productsummary {
+	display: block;
+	width: 100%;
+	height: 3.5em;
+	padding: 0.25em;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis "[more...]";
+}
+
+/* details */
+#pems2--web details {
+	display: block;
+	width: 100%;
+}
+
+#pems2--web details summary {
+	font-weight: bold;
+	font-variant: small-caps;
+
+	margin: 0;
+	border: 4px outset #ccc;
+	padding: 0.5em;
+
+	background: linear-gradient(to left, #0041a4, #023177);
+	color: #fff;
+	text-shadow:
+		-1px  1px 0 #000,
+		 1px  1px 0 #000,
+		 1px -1px 0 #000,
+		-1px -1px 0 #000;
+
+	border-top-right-radius: 16px;
+	border-bottom-right-radius: 16px;
+
+	cursor: pointer;
+}
+
+#pems2--web details[open] summary {
+	border-bottom-right-radius: 0;
+}
+
+
+#pems2--web details[open] .content {
+	background: #fff;
+	border-width: 4px solid black;
+	border-style: inset;
+	border-bottom-right-radius: 12px;
+	padding: 0.25em;
+}
+
+/* tables */
+#pems2--web table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+/* panes */
+#pems2--left {
+	grid-area: pems2--left;
+	align-items: start;
+	height: 100%;
+	margin-right: 4px;
+}
+
+#pems2--right {
+	grid-area: pems2--right;
+	align-items: start;
+	height: 100%;
+	margin-left: 4px;
+}
+
+/* pane contents */
+#pems2--left th,
+#pems2--left td {
+	vertical-align: top;
+	text-align: left;
+	padding: 0.25em;
+	width: 50%;
+}
+
+
+#pems2--left tr {
+	border-top: 1px solid black;
+}
+
+#pems2--left tr:hover {
+	outline: 2px inset #ccc;
+	background-color: #99b6e0;
+}
+
+#pems2--left th {
+	font-variant: small-caps;
+}
+
+#pems2--left tr td,
+#pems2--right tr td {
+	height: 100%;
+	vertical-align: top;
+}
