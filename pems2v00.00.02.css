@@ -51,6 +51,7 @@ Aspect Ratios:
 	overflow: hidden;
 	text-overflow: ellipsis;
 	height: 2.50em;
+	line-height: 0.9em;
 }
 
 #pems2_description_atl .left_pane {
