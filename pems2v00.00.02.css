@@ -45,7 +45,9 @@ Aspect Ratios:
 	border-left: 4px inset black;
 	border-top-left-radius: 14px;
 	border-bottom-left-radius: 14px;
-	padding: 0.25em;
+	padding-left: 0.25em;
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
 }
 
 #pems2_description_atl .left_pane {
@@ -59,7 +61,7 @@ Aspect Ratios:
 #pems2_description_atl .product_summary {
 	overflow: hidden;
 	text-overflow: ellipsis;
-	height: 3.4em;
+	height: 3.2em;
 }
 
 #pems2_description_atl details > div {
