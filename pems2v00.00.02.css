@@ -52,7 +52,7 @@ Aspect Ratios:
 	padding-bottom: 0.025em;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	height: 2.40em;
+	height: 2.00em;
 	line-height: 1.10em;
 }
 
@@ -75,10 +75,11 @@ Aspect Ratios:
 	color: #fff;
 	font-variant: small-caps;
 	font-weight: bolder;
-	text-shadow:	-0px -1px 0 #000,
-					 0px -1px 0 #000,
-					-0px  1px 0 #000,
-					 0px  1px 0 #000;
+	text-shadow:
+		-0px -1px 0 #000,
+		 0px -1px 0 #000,
+		-0px  1px 0 #000,
+		 0px  1px 0 #000;
 	z-index: 99;
 	-webkit-user-select: none; /* Safari */
 	-ms-user-select: none; /* IE 10 and IE 11 */
