@@ -16,7 +16,7 @@ Aspect Ratios:
 		aspect-ratio: 1920 / 1080;
 		display: grid;
 		grid-template-columns: 60% 40%;
-		grid-template-rows: 2.2em auto;
+		grid-template-rows: 2.50em auto;
 		grid-gap: 0.25em;
 		grid-template-areas:
 			'product_summary product_summary'
@@ -50,7 +50,7 @@ Aspect Ratios:
 	padding-bottom: 0.025em;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	height: 2.2em;
+	height: 2.50em;
 }
 
 #pems2_description_atl .left_pane {
