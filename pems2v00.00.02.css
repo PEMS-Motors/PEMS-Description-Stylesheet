@@ -43,6 +43,8 @@ Aspect Ratios:
 	grid-area: product_summary;
 	border-top: 4px inset black;
 	border-left: 4px inset black;
+	border-right: 1px inset black;
+	border-bottom: 1px inset black;
 	border-top-left-radius: 14px;
 	border-bottom-left-radius: 14px;
 	padding-left: 0.50em;
