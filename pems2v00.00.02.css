@@ -38,7 +38,7 @@ Aspect Ratios:
 	vertical-align: top;
 	text-align: left;
 }
-
+/* old version
 #pems2_description_atl .product_summary {
 	grid-area: product_summary;
 	border-top: 4px inset black;
@@ -55,7 +55,23 @@ Aspect Ratios:
 	height: 2.41em;
 	line-height: 1.20em;
 }
-
+*/
+#pems2_description_atl .product_summary {
+	grid-area: product_summary;
+	border-top: 1px inset black;
+	border-left: 1px inset black;
+	border-right: 1px inset black;
+	border-bottom: 1px inset black;
+	border-top-left-radius: 14px;
+	border-bottom-left-radius: 14px;
+	padding-left: 0.50em;
+	padding-top: 0.025em;
+	padding-bottom: 0.025em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 2.41em;
+	line-height: 1.20em;
+}
 #pems2_description_atl .left_pane {
 	grid-area: left_pane;
 }
