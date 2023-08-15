@@ -3,7 +3,6 @@ Aspect Ratios:
 	1920 x 1080 (desktop)
 	360 x 800 (mobile)
 */
-
 @media (max-width: 800px) {
 	#pems2_description_atl {
 		aspect-ratio: 360 / 800;
@@ -24,6 +23,8 @@ Aspect Ratios:
 	}
 
 	.prod-card #pems2_description_atl {
+		grid-template-columns: 60% 40%;
+		grid-template-rows: auto;
 		grid-template-areas:
 			'left_pane right_pane';
 	}
@@ -173,7 +174,7 @@ Aspect Ratios:
 #pems2_description_atl dfn[data-tooltip]:hover::after {
 	content: attr(data-tooltip);
 	outline: 1px solid black;
-	margin: 12px;
+	margin: 25px;
 	padding: 4px;
 	border: 1px solid white;
 	border-radius: 12px;
