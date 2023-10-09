@@ -3,6 +3,13 @@
 	padding: 0;
 	margin: 0;
 }
+
+body {
+	width: 100vw;
+	max-width: 100%;
+	height: 100vh;
+	max-height: 100%;
+}
 .pems2-teaser .lightbox-gallery {
 				display: flex;
 				align-items: center;
