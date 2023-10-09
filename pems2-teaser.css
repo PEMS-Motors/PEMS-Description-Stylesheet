@@ -1,0 +1,222 @@
+.pems2-teaser .lightbox-gallery {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				vertical-align: top;
+			}
+			
+			.pems2-teaser .lightbox {
+				cursor:						pointer;
+			}
+			
+			.pems2-teaser .lightbox-checkbox {
+				display: none;
+			}
+			
+			.pems2-teaser .lightbox-thumbnail {
+				cursor:						pointer;
+				height:						10em;
+			
+				border-radius:				0.2em;
+				padding:					0.8em;
+				background-color:			rgb(33, 134, 200);
+				box-shadow:					0px 0px 1em rgba(255,255,255,.8);
+				box-sizing:					border-box;
+				margin:						94px 20px 20px 20px;
+			}
+			
+			.pems2-teaser .lightbox-content {
+				display:					none;
+				z-index:					99;
+				margin:						auto;
+				position:					absolute;
+				background-color:			rgb(1, 4, 6);
+				box-shadow: 				0 0 50em rgba(0,0,0,0.95);
+				box-sizing:					border-box;
+				border:						4px outset black;
+				outline:					100em solid rgba(0,0,0,0.70);
+				border-top-left-radius:		1em;
+				border-top-right-radius:	1em;
+				max-height:					100%;
+				max-width:					100%;
+			}
+			
+			.pems2-teaser .lightbox-checkbox:checked ~ .lightbox-content {
+				cursor:						pointer;
+				display:					block;
+				max-width:					100%;
+				top:						0;
+				left:						0;
+				right:						0;
+				bottom:						0;
+				animation:					animate-in 0.25s linear;
+			}
+			
+			.pems2-teaser .lightbox-checkbox ~ .lightbox-content {
+				top:						200vh;
+				left:						0;
+				right:						0;
+				bottom:						0;
+				animation:					animate-out 0.25s linear;
+			}
+			
+			@keyframes pems2-teaser-animate-in {
+				0% {
+					transform:				translate(0, 200vh);
+				}
+				100% {
+					transform:				translate(0, 0);
+				}
+			}
+			
+			@keyframes pems2-teaser-animate-out {
+				0% {
+					transform:				translate(0, 0);
+				}
+				100% {
+					transform:				translate(0, 0);
+				}
+			}
+			
+			.pems2-teaser * {
+				box-sizing: border-box;
+				padding: 0;
+				margin: 0;
+			}
+			
+			.pems2-teaser {
+				display:						grid;
+				grid-template-columns:			50vw 50vw;
+				grid-template-rows:				100vh;
+				grid-template-areas:			'column_1 column_2';
+				min-height:						100vh;
+				height:							100%;
+				min-width:						100vw;
+				max-width:						100vw;
+				background-size:				100%;
+				background-repeat:				no-repeat;
+				oveflow:						hidden;
+				background:						linear-gradient(black, rgb(033,134,200));
+			}
+			
+			.pems2-teaser::-webkit-scrollbar {
+				display: none;
+			}
+			
+			.pems2-teaser section {
+				color:							rgb(254,254,254);
+				text-align:						justify;
+				border-bottom:					4px inset black;
+			}
+			
+			.pems2-teaser section > h1 {
+				background-color:				rgb(254,254,254);
+				border-top:						4px outset black;
+				border-bottom:					4px outset black;
+				font-variant:					small-caps;
+				text-align:						center;
+				padding:						1em 0 1em 0;
+				color:							rgb(014,014,014);
+				font:							28px 'Lucida Console';
+				text-align:						justify middle;
+			}
+			
+			.pems2-teaser section > h1 > img {
+				height:							2em;
+				vertical-align:					middle;
+				padding:						0 0.25em 0 0.25em;
+				filter:							drop-shadow(1px 1px 1px rgb(014,014,014));
+			}
+			
+			.pems2-teaser section > img {
+				max-width: 100%;
+			}
+			
+			.pems2-teaser section > div {
+				border-top:						4px inset black;
+				border-bottom:					4px inset black;
+				padding:						1em;
+				background-color:				rgb(051,051,051);
+			}
+			
+			.pems2-teaser #banner {
+				width:							100%;
+				margin:							0;
+				padding:						0;
+			}
+			
+			.pems2-teaser #column_1 {
+				grid-area:						column_1;
+				overflow:						scroll;
+				scroll-behavior:				smooth;
+				border-right:					2px outset gray;
+			}
+			
+			.pems2-teaser #column_2 #banner {
+				z-index:						3;
+				position:						absolute;
+				top:							0;
+				left:							7vw;
+				filter:							drop-shadow(0 0 1.75rem rgb(014,014,014));
+			}
+			
+			.pems2-teaser #column_2 {
+				grid-area:						column_2;
+				position:						absolute;
+				top:							0;
+				right:							0;
+				width:							50vw;
+				height:							100vh;
+				overflow:						hidden;
+			}
+			
+			.pems2-teaser #column_2 #exhaust-01,
+			.pems2-teaser #column_2 #exhaust-02 {
+				position:						absolute;
+				bottom:							0;
+			}
+			
+			.pems2-teaser #column_2 #exhaust-01 {	right: 0;	width: 30vw;	z-index: 3	}
+			.pems2-teaser #column_2 #exhaust-02 {	right: 0;	width: 50vw;	z-index: 1	}
+			
+			.pems2-teaser #column_2 .ship {
+				position: absolute;
+				right: 0;
+			}
+			
+			
+			.pems2-teaser #column_2 #ship-01	{ width: 05vw;	bottom:	-10vh;	animation: pems2-teaser-animate-ship 30s linear infinite;	right: 33vw;	z-index: 2 }
+			.pems2-teaser #column_2 #ship-02	{ width: 05vw;	bottom:	-10vh;	animation: pems2-teaser-animate-ship 28s linear infinite;	right: 12vw;	z-index: 2 }
+			.pems2-teaser #column_2 #ship-03	{ width: 01vw;	bottom:	-10vh;	animation: pems2-teaser-animate-ship 26s linear infinite;	right: 30vw;	z-index: 2 }
+			.pems2-teaser #column_2 #ship-04	{ width: 03vw;	bottom:	-10vh;	animation: pems2-teaser-animate-ship 24s linear infinite;	right: 23vw;	z-index: 2 }
+			.pems2-teaser #column_2 #ship-08	{ width: 09vw;	bottom:	-10vh;	animation: pems2-teaser-animate-ship 16s linear infinite;	right: 45vw;	z-index: 2 }
+			.pems2-teaser #column_2 #ship-11	{ width: 07vw;	bottom:	-10vh;	animation: pems2-teaser-animate-ship 10s linear infinite;	right: 15vw;	z-index: 2 }
+			.pems2-teaser #column_2 #ship-12	{ width: 05vw;	bottom:	-10vh;	animation: pems2-teaser-animate-ship 10s linear infinite;	right: 05vw;	z-index: 2 }
+			
+			@keyframes pems2-teaser-animate-ship {
+				0% {
+					transform: translate(0, 500vh);
+				}
+				100% {
+					transform: translate(0, -500vh);
+				}
+			}
+			
+			:root {
+				--background:					rgb(255,255,255);
+				--text:							rgb(102,075,134);
+				--slider-rail-unchecked:		rgb(200,200,200);
+				--slider-rail-checked:			rgb(140,146,148);
+				--slider-dot-unchecked:			rgb(187,134,252);
+				--slider-dot-checked:			rgb(102,075,134);
+				--nav-details-background:		rgb(200,200,200);
+			}
+			
+			@media (prefers-color-scheme: dark) {
+				:root {
+					--background:				rgb(028,027,034);
+					--text:						rgb(157,182,180);
+					--text-color-strong:		rgb(187,134,252);
+					--text-color-weak:			rgb(187,134,252);
+				}
+			};
