@@ -46,9 +46,6 @@ Aspect Ratios:
 	text-align: left;
 }
 
-#pems2_description_atl .product_summary {
-	display: none;
-}
 
 .prod-card #pems2_description_atl .product_summary {
 	display: block;
