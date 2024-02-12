@@ -68,10 +68,16 @@ Aspect Ratios:
 
 #pems2_description_atl .left_pane {
 	grid-area: left_pane;
+	background-color: #fff;
 }
 
 #pems2_description_atl .right_pane {
 	grid-area: right_pane;
+	background-color: #fff;
+}
+
+#pems2_description_atl details {
+	background-color: #fff;
 }
 
 #pems2_description_atl details>div {
